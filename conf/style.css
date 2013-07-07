@@ -1,0 +1,53 @@
+* { margin:0px auto; padding:0px;}
+body{background:#ffffff url('../images/back.jpg') no-repeat center top; background-size:100%;background-attachment:fixed;} 
+@font-face{font-family: Segoe;src: url('../fonts/SEGOESCB.ttf');} 
+@font-face{font-family: Segoe2;src: url('../fonts/SEGOEWP.ttf');} 
+#wrapper{width:800px; margin:0px auto;margin-top:20px; }
+#content{background-color:#fff; border:5px solid white; border-radius:8px;}
+#banner{background:#ffffff url('../images/banner.png') no-repeat center top; background-size: 100%; height:200px;border:5px solid white; border-radius:8px;}
+#banner p{color:#fff;font-family : "Segoe2",regular;font-size:36px; font-weight:bold; margin-top:120px;margin-left:10px;}
+#heading{height:100px;}
+#logo{height:100px;float:left;}
+#logotxt {margin-top:30px;}
+#topnav {height:100%;float:right;margin-top:55px;}
+#topnav ul li {list-style-type:none;float:right;}
+#topnav ul li a {color:#fff;font-family : "TW Cen Mt",regular;font-size:20px; font-weight:bold;text-decoration:none; padding: 0px 4px; }
+#topnav ul li a:hover {color:#2e75b5; background-color:#bdd7ee;}
+#topnav ul li a:active {color:#ffffff; background-color:#2e75b5; position:relative; top:2px;}
+#txt_logo {font-family : "Segoe",regular; color : #fff; font-size:50px; font-weight:bold;padding:0px;text-shadow: 1px 1px 2px #000;display:inline-block;}
+#home {width:100%;margin-top:20px;}
+#home td{margin:3px auto;color:#125eaa;font-family : "Segoe2",regular;font-size:18px; font-weight:bold;background-color:#8ed6e6;border:2px solid #125eaa; border-radius:10px;text-align:center;}
+#home td:hover{color:#fff;background-color:#2293bf;}
+#foot{width:800px;}
+#infoot{width:100%;padding:10px 10px;}
+#infoot p,a{color:#0d3f6f;font-family : "Segoe2",regular;font-size:18px; font-weight:bold; text-align:center;padding:auto;}
+#infoot a{text-decoration:none;}
+.btn_login, .btn_comment {	float:right; background-color:#bdd7ee;	border-radius:6px;	border:2px solid #2e75b5;	display:inline-block;	color:#2e75b5;	font-family:Trebuchet MS;	font-size:15px;	font-weight:bold;	padding:4px 24px;	text-decoration:none; margin:5px 15px;}
+.btn_login:hover,.btn_comment:hover {	background-color:#deeaf6;}
+.btn_login:active,.btn_comment:active {	position:relative;	top:1px;}
+.btn_comment {width:140px;}
+#showcase table { margin:10px auto;background-color:#8ed6e6;border:2px solid #125eaa; border-radius:10px;text-align:left; width:500px;font-family : "Tw Cen Mt",regular; }
+#showcase2 table {table-layout:fixed; background-color:#8ed6e6;border:2px solid #125eaa; border-radius:10px;text-align:left; width:95%;font-family : "Tw Cen Mt",regular; margin:10px auto;}
+#showcase2 table td {background-color:#8ed6e6;border:none;color : #125eaa;padding:0px;padding-left:10px;margin:5px auto;}
+#showcase table td {background-color:#8ed6e6;border:none;color : #125eaa;padding:0px;padding-left:10px;text-align:center;}
+#browse {table-layout:fixed;width:100%;background-color:#8ed6e6;border:5px solid #125eaa;border-radius:10px;font-family : "Tw Cen Mt",regular;font-size:18px; padding:0px;}
+#browse th td{background-color:#8ed6e6;border:5px solid #2e75b5;color : #125eaa;padding:10px;text-align:center;}
+#browse tr td{background-color:#8ed6e6;color : #125eaa;padding:10px;text-align:center;}
+#browse tr td:hover{color:#fff;border-radius:10px;background-color:#2293bf;}
+#browse td.head:hover{color:#125eaa;background-color:#8ed6e6;}
+#browse tr td.title{color:#fff;background-color:#2e75b5; padding:5px 10px;}
+#browse tr td.title:hover{color:#fff;background-color:#2e75b5; padding:5px 10px;border-radius:0px;}
+#tbl { width: 370px; margin:0px auto; margin-top:30px;}
+#ctbl { width: 650px; margin:0px auto; }
+#tid , #tname, #tpass ,#tmsg{width:100px; height:30px; font-family : "Tw Cen Mt",regular; color : #2e75b5; font-size:20px;  font-weight:bold; margin:5px;}
+#status {color:red;}
+#dname ,#dfname, #dpass,#cname,#cmsg{width:250px; height:30px; font-family : "Tw Cen Mt",regular; color : #2e75b5; font-size:18px; margin:5px;}
+#cname,#cmsg{width:500px; height:30px; font-family : "Tw Cen Mt",regular; color : #2e75b5; font-size:16px; margin:5px; padding:5px; padding-right:0px;}
+#cmsg{height:150px; align:top; resize:none;}
+#tbl_comments { margin:3px auto;vertical-align:top;table-layout: fixed;width: 700px; vertical-align: top; font-family : "Tw Cen Mt",regular; color : #2e75b5; font-size:14px; text-decoration:none; text-align:left; background-color:#bdd7ee;border-radius:10px;	border:2px solid #2e75b5; word-wrap:break-word;}
+#tbl_comments td{ font-size:14px;text-align:left;vertical-align:top;}
+#tbl_comments td.mid{ text-align:center;}
+#tbl_comments a:link { font-family : "Tw Cen Mt",regular; color : #2e75b5; font-size:16px; font-weight:bold;}
+#tbl_comments a:visited { font-family : "Tw Cen Mt",regular; color : #2e75b5; font-size:16px;font-weight:bold;}
+#tbl_comments a:hover { font-family : "Tw Cen Mt",regular; color : #2e75b5; font-size:16px; font-weight:bold;}
+#tbl_comments a:active { font-family : "Tw Cen Mt",regular; color : #2e75b5; font-size:16px;font-weight:bold;}
